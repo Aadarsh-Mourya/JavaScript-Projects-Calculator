@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ysabeau+SC&display=swap');
+
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 400px;
+    height: fit-content;
+    background-color: #1A202C;
+    border-radius: 10px;
+}
+
+.input-box{
+    background-color: #1A202C;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    color: #f5f5f5;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    flex: 20%;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1A202C;
+    color: #f5f5f5;
+    opacity: .8;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+#buttons-operation{
+    color: cadetblue;
+    opacity: 1;
+}
